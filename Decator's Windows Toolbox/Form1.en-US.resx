@@ -198,7 +198,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ConfirmButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>13</value>
   </data>
   <data name="ConfirmButton.Text" xml:space="preserve">
     <value>Confirm</value>
@@ -219,7 +219,7 @@
     <value>160, 60</value>
   </data>
   <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>12</value>
   </data>
   <data name="ExitButton.Text" xml:space="preserve">
     <value>Exit</value>
@@ -233,14 +233,44 @@
   <data name="InstallVscode.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallVscode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="InstallVscode.Text" xml:space="preserve">
     <value>Install VScode</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 12</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 494</value>
+  </data>
+  <data name="EnableNFS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EnableNFS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="EnableNFS.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="EnableNFS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="EnableNFS.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="EnableNFS.Text" xml:space="preserve">
+    <value>Enable NFS</value>
   </data>
   <data name="InstallGsudo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="InstallGsudo.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
+  </data>
+  <data name="InstallGsudo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="InstallGsudo.Text" xml:space="preserve">
     <value>Install Gsudo</value>
@@ -251,6 +281,9 @@
   <data name="InstallVLC.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallVLC.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="InstallVLC.Text" xml:space="preserve">
     <value>Install VLC</value>
   </data>
@@ -259,6 +292,9 @@
   </data>
   <data name="InstallPython.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
+  </data>
+  <data name="InstallPython.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="InstallPython.Text" xml:space="preserve">
     <value>Install Python3</value>
@@ -269,6 +305,9 @@
   <data name="InstallWaterfox.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallWaterfox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="InstallWaterfox.Text" xml:space="preserve">
     <value>Install Waterfox</value>
   </data>
@@ -278,6 +317,9 @@
   <data name="InstallNuGet.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallNuGet.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
   <data name="InstallNuGet.Text" xml:space="preserve">
     <value>Install NuGet</value>
   </data>
@@ -285,13 +327,16 @@
     <value>NoControl</value>
   </data>
   <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>3, 49</value>
   </data>
   <data name="DisWinDef.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="DisWinDef.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
+  </data>
+  <data name="DisWinDef.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="DisWinDef.Text" xml:space="preserve">
     <value>Disable Windows Defender</value>
@@ -308,6 +353,9 @@
   <data name="InstallTerminal.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallTerminal.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
   <data name="InstallTerminal.Text" xml:space="preserve">
     <value>Install Windows Terminal</value>
   </data>
@@ -319,6 +367,9 @@
   </data>
   <data name="InstallAalacritty.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
+  </data>
+  <data name="InstallAalacritty.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="InstallAalacritty.Text" xml:space="preserve">
     <value>Install Alacritty</value>
@@ -332,6 +383,9 @@
   <data name="InstallVim.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallVim.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="InstallVim.Text" xml:space="preserve">
     <value>Install Vim</value>
   </data>
@@ -344,20 +398,32 @@
   <data name="InstallGit.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
+  <data name="InstallGit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="InstallGit.Text" xml:space="preserve">
     <value>Install Git</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 12</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>853, 494</value>
   </data>
   <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 147</value>
   </data>
   <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 436</value>
+  </data>
+  <data name="ClearButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 512</value>
+  </data>
+  <data name="ClearButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="ClearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ClearButton.Text" xml:space="preserve">
+    <value>Clear Selections</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1184, 661</value>

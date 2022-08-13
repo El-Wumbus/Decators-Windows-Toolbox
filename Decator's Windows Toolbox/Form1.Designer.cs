@@ -34,6 +34,7 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.EnableNFS = new System.Windows.Forms.Button();
             this.InstallGsudo = new System.Windows.Forms.Button();
             this.InstallVLC = new System.Windows.Forms.Button();
             this.InstallPython = new System.Windows.Forms.Button();
@@ -47,6 +48,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.ClearButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +92,7 @@
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.EnableNFS);
             this.panel1.Controls.Add(this.InstallGsudo);
             this.panel1.Controls.Add(this.InstallVLC);
             this.panel1.Controls.Add(this.InstallPython);
@@ -104,6 +107,14 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // EnableNFS
+            // 
+            resources.ApplyResources(this.EnableNFS, "EnableNFS");
+            this.EnableNFS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EnableNFS.Name = "EnableNFS";
+            this.EnableNFS.UseVisualStyleBackColor = true;
+            this.EnableNFS.Click += new System.EventHandler(this.EnableNFS_Click);
             // 
             // InstallGsudo
             // 
@@ -204,6 +215,14 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             // 
+            // ClearButton
+            // 
+            resources.ApplyResources(this.ClearButton, "ClearButton");
+            this.ClearButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ClearButton.Name = "ClearButton";
+            this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
+            // 
             // WindowsToolbox
             // 
             this.AcceptButton = this.ConfirmButton;
@@ -211,6 +230,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.CancelButton = this.ExitButton;
+            this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ExitButton);
@@ -248,5 +268,7 @@
         private System.Windows.Forms.Button InstallPython;
         private System.Windows.Forms.Button InstallWaterfox;
         private System.Windows.Forms.Button InstallNuGet;
+        private System.Windows.Forms.Button EnableNFS;
+        private System.Windows.Forms.Button ClearButton;
     }
 }

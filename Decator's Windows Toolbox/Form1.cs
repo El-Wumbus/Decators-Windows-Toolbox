@@ -115,6 +115,29 @@ namespace Decator_s_Windows_Toolbox
             Log("Windows Tool Box Loaded.");
         }
 
+        private void EnableNFS_Click(object sender, EventArgs e)
+        {
+            Log("Will Enable NFS");
+            ConfigActions.Add("EnableNFS");
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Clear();
+            ConfigActions.Clear();
+            install_vscode_winget = false;
+            install_git_winget = false;
+            install_vim_winget = false;
+            install_alacritty_winget = false;
+            install_terminal_winget = false;
+            install_nuget_winget = false;
+            install_python_winget = false;
+            install_waterfox_winget = false;
+            install_vlc_winget = false;
+            install_gsudo_winget = false;
+            Log("All actions cleared.");
+        }
+
         private void DisWinDef_Click(object sender, EventArgs e)
         {
             Log("Will Disable Windows Defender");
@@ -181,7 +204,7 @@ namespace Decator_s_Windows_Toolbox
         WingetPrograms.Add("gerardog.gsudo");
       if (install_alacritty_winget)
         WingetPrograms.Add("Alacritty.Alacritty");
-      if (WingetPrograms.Count == 0)
+      if (WingetPrograms.Count == 0 && ConfigActions.Count == 0)
             {
                 Log("No actions specified");
                 return;
@@ -212,14 +235,25 @@ namespace Decator_s_Windows_Toolbox
     {
       foreach (string Action in ConfigActions)
             {
+                if (Action == "DisWinDef")
                 Functions.ApplyRegistryEdits(Action);
-                    
+                if (Action == "EnableNFS")
+                    if (Functions.RunCommand("powershell", "Enable-WindowsOptionalFeature -FeatureName ServicesForNFS-ClientOnly, ClientForNFS-Infrastructure -Online -NoRestart") != 0)
+                        Log("Couldn\'t enable NFS");
+                    else
+                        Log("NFS enabled.");
+
+
             }
       foreach (string Program in WingetPrograms)
       {
         if (Functions.InstallProgramWinget(Program)!=0)
                 {
-                    Log(String.Format("Action {0} Failed!"));
+                    Log(String.Format("{0} installation failed!", Program));
+                }
+        else
+                {
+                    Log(String.Format("{0} has been installed.", Program));
                 }
 
         if(InstallationWorker.CancellationPending)

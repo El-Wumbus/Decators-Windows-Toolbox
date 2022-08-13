@@ -71,6 +71,21 @@ namespace Decator_s_Windows_Toolbox {
             winget.WaitForExit();
             return winget.ExitCode;
         }
+        static public int RunCommand(string programName, string arguments, bool UseAdmin=true)
+        {
+            string command = programName;
+            Process program = new Process();
+            program.StartInfo.FileName=command;
+            program.StartInfo.Arguments = arguments;
+            program.StartInfo.UseShellExecute = true;
+            program.StartInfo.CreateNoWindow = true;
+            program.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            if (UseAdmin)
+                program.StartInfo.Verb = "runas";
+            program.Start();
+            program.WaitForExit();
+            return program.ExitCode;
+        }
     }
 
     internal static class Program
