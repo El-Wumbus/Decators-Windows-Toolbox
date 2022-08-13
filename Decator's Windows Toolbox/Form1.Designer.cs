@@ -34,6 +34,20 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.InstallFirefox = new System.Windows.Forms.Button();
+            this.InstallGithubDesktop = new System.Windows.Forms.Button();
+            this.InstallDosBox = new System.Windows.Forms.Button();
+            this.InstallDebian = new System.Windows.Forms.Button();
+            this.InstallQemu = new System.Windows.Forms.Button();
+            this.InstallVMB = new System.Windows.Forms.Button();
+            this.InstallVMP = new System.Windows.Forms.Button();
+            this.InstallSteam = new System.Windows.Forms.Button();
+            this.InstallVMeet = new System.Windows.Forms.Button();
+            this.InstallChrome = new System.Windows.Forms.Button();
+            this.ClearButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.EnableNFS = new System.Windows.Forms.Button();
             this.InstallGsudo = new System.Windows.Forms.Button();
             this.InstallVLC = new System.Windows.Forms.Button();
@@ -48,7 +62,6 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.ClearButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +105,20 @@
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.InstallFirefox);
+            this.panel1.Controls.Add(this.InstallGithubDesktop);
+            this.panel1.Controls.Add(this.InstallDosBox);
+            this.panel1.Controls.Add(this.InstallDebian);
+            this.panel1.Controls.Add(this.InstallQemu);
+            this.panel1.Controls.Add(this.InstallVMB);
+            this.panel1.Controls.Add(this.InstallVMP);
+            this.panel1.Controls.Add(this.InstallSteam);
+            this.panel1.Controls.Add(this.InstallVMeet);
+            this.panel1.Controls.Add(this.InstallChrome);
+            this.panel1.Controls.Add(this.ClearButton);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.EnableNFS);
             this.panel1.Controls.Add(this.InstallGsudo);
             this.panel1.Controls.Add(this.InstallVLC);
@@ -107,6 +134,118 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // InstallFirefox
+            // 
+            resources.ApplyResources(this.InstallFirefox, "InstallFirefox");
+            this.InstallFirefox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallFirefox.Name = "InstallFirefox";
+            this.InstallFirefox.UseVisualStyleBackColor = true;
+            this.InstallFirefox.Click += new System.EventHandler(this.InstallFirefox_Click);
+            // 
+            // InstallGithubDesktop
+            // 
+            resources.ApplyResources(this.InstallGithubDesktop, "InstallGithubDesktop");
+            this.InstallGithubDesktop.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallGithubDesktop.Name = "InstallGithubDesktop";
+            this.InstallGithubDesktop.UseVisualStyleBackColor = true;
+            this.InstallGithubDesktop.Click += new System.EventHandler(this.InstallGithubDesktop_Click);
+            // 
+            // InstallDosBox
+            // 
+            resources.ApplyResources(this.InstallDosBox, "InstallDosBox");
+            this.InstallDosBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallDosBox.Name = "InstallDosBox";
+            this.InstallDosBox.UseVisualStyleBackColor = true;
+            this.InstallDosBox.Click += new System.EventHandler(this.InstallDosBox_Click);
+            // 
+            // InstallDebian
+            // 
+            resources.ApplyResources(this.InstallDebian, "InstallDebian");
+            this.InstallDebian.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallDebian.Name = "InstallDebian";
+            this.InstallDebian.UseVisualStyleBackColor = true;
+            this.InstallDebian.Click += new System.EventHandler(this.InstallDebian_Click);
+            // 
+            // InstallQemu
+            // 
+            resources.ApplyResources(this.InstallQemu, "InstallQemu");
+            this.InstallQemu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallQemu.Name = "InstallQemu";
+            this.InstallQemu.UseVisualStyleBackColor = true;
+            this.InstallQemu.Click += new System.EventHandler(this.InstallQemu_Click);
+            // 
+            // InstallVMB
+            // 
+            resources.ApplyResources(this.InstallVMB, "InstallVMB");
+            this.InstallVMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallVMB.Name = "InstallVMB";
+            this.InstallVMB.UseVisualStyleBackColor = true;
+            this.InstallVMB.Click += new System.EventHandler(this.InstallVMB_Click);
+            // 
+            // InstallVMP
+            // 
+            resources.ApplyResources(this.InstallVMP, "InstallVMP");
+            this.InstallVMP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallVMP.Name = "InstallVMP";
+            this.InstallVMP.UseVisualStyleBackColor = true;
+            this.InstallVMP.Click += new System.EventHandler(this.InstallVMP_Click);
+            // 
+            // InstallSteam
+            // 
+            resources.ApplyResources(this.InstallSteam, "InstallSteam");
+            this.InstallSteam.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallSteam.Name = "InstallSteam";
+            this.InstallSteam.UseVisualStyleBackColor = true;
+            this.InstallSteam.Click += new System.EventHandler(this.InstallSteam_Click);
+            // 
+            // InstallVMeet
+            // 
+            resources.ApplyResources(this.InstallVMeet, "InstallVMeet");
+            this.InstallVMeet.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallVMeet.Name = "InstallVMeet";
+            this.InstallVMeet.UseVisualStyleBackColor = true;
+            this.InstallVMeet.Click += new System.EventHandler(this.InstallVMeet_Click);
+            // 
+            // InstallChrome
+            // 
+            resources.ApplyResources(this.InstallChrome, "InstallChrome");
+            this.InstallChrome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallChrome.Name = "InstallChrome";
+            this.InstallChrome.UseVisualStyleBackColor = true;
+            this.InstallChrome.Click += new System.EventHandler(this.InstallChrome_Click);
+            // 
+            // ClearButton
+            // 
+            resources.ApplyResources(this.ClearButton, "ClearButton");
+            this.ClearButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ClearButton.Name = "ClearButton";
+            this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Name = "label1";
             // 
             // EnableNFS
             // 
@@ -215,14 +354,6 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             // 
-            // ClearButton
-            // 
-            resources.ApplyResources(this.ClearButton, "ClearButton");
-            this.ClearButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ClearButton.Name = "ClearButton";
-            this.ClearButton.UseVisualStyleBackColor = true;
-            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
-            // 
             // WindowsToolbox
             // 
             this.AcceptButton = this.ConfirmButton;
@@ -230,7 +361,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.CancelButton = this.ExitButton;
-            this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ExitButton);
@@ -245,6 +375,7 @@
             this.Load += new System.EventHandler(this.WindowsToolbox_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -270,5 +401,18 @@
         private System.Windows.Forms.Button InstallNuGet;
         private System.Windows.Forms.Button EnableNFS;
         private System.Windows.Forms.Button ClearButton;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button InstallFirefox;
+        private System.Windows.Forms.Button InstallGithubDesktop;
+        private System.Windows.Forms.Button InstallDosBox;
+        private System.Windows.Forms.Button InstallDebian;
+        private System.Windows.Forms.Button InstallQemu;
+        private System.Windows.Forms.Button InstallVMB;
+        private System.Windows.Forms.Button InstallVMP;
+        private System.Windows.Forms.Button InstallSteam;
+        private System.Windows.Forms.Button InstallVMeet;
+        private System.Windows.Forms.Button InstallChrome;
     }
 }

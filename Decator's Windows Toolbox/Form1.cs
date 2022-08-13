@@ -8,14 +8,17 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Decator_s_Windows_Toolbox
 {
-
+ 
   public partial class WindowsToolbox : Form
   {
-    List<string> WingetPrograms = new List<string>();
+ 
+
+        List<string> WingetPrograms = new List<string>();
     List<string> ConfigActions = new List<string>();
     bool install_vscode_winget = false, 
             install_git_winget = false, 
@@ -32,14 +35,19 @@ namespace Decator_s_Windows_Toolbox
       InitializeComponent();
     }
 
+        private void Log(string message)
+        {
+            message = String.Format("Decator\'s toolbox:: {0}\n", message);
+            TextLog(message);
 
-    private void InstallInBackground(string program)
-    {
-      if (Functions.InstallProgramWinget(program) != 0)
-      {
-        Functions.Log(String.Format("Installation of {0} failed.", program));
-      }
-    }
+            using (FileStream fs = File.OpenWrite(Program.logfile))
+            {
+                char[] msg = message.ToCharArray();
+                Byte[] text = new UTF8Encoding(true).GetBytes(msg);
+                fs.Write(text, 0, message.Length);
+            }
+        }
+       
 
 
     private void ConfirmButton_1(object sender, EventArgs e) //Confirm Button
@@ -88,9 +96,8 @@ namespace Decator_s_Windows_Toolbox
     {
      
     }
-    private void Log(string message)
+    private void TextLog(string message)
     {
-      message = String.Format("Decator\'s toolbox:: {0}\n", message);
       richTextBox1.Text += message;
 
     }
@@ -113,6 +120,7 @@ namespace Decator_s_Windows_Toolbox
         private void WindowsToolbox_Load(object sender, EventArgs e)
         {
             Log("Windows Tool Box Loaded.");
+            Log(String.Format("Logging to '{0}'.", Program.logfile));
         }
 
         private void EnableNFS_Click(object sender, EventArgs e)
@@ -136,6 +144,90 @@ namespace Decator_s_Windows_Toolbox
             install_vlc_winget = false;
             install_gsudo_winget = false;
             Log("All actions cleared.");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add(textBox1.Text);
+            InstallLog(textBox1.Text);
+            textBox1.Text = "";
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InstallChrome_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("Google.Chrome");
+            InstallLog("Google Chrome");
+        }
+
+        private void InstallSteam_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("Valve.Steam");
+            InstallLog("Steam");
+        }
+
+        private void InstallVMeet_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("VB-Audio.Voicemeeter");
+            InstallLog("Voicemeeter");
+        }
+
+        private void InstallVMP_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("VB-Audio.Voicemeeter.Potato");
+                            InstallLog("Voicemeeter Potato");
+
+        }
+
+        private void InstallVMB_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("VB-Audio.Voicemeeter.Banana");
+                            InstallLog("Voicemeeter Banana");
+
+        }
+
+        private void InstallQemu_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("SoftwareFreedomConservancy.QEMU");
+            InstallLog("Qemu");
+
+
+        }
+
+        private void InstallDosBox_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("DOSBox.DOSBox");
+            InstallLog("DOSBox");
+
+
+        }
+
+        private void InstallDebian_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("Debian.Debian");
+            InstallLog("Debian (WSL)");
+
+
+        }
+
+        private void InstallGithubDesktop_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("GitHub.GitHubDesktop");
+            InstallLog("Github Desktop");
+
+
+        }
+
+        private void InstallFirefox_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("Mozilla.Firefox");
+            InstallLog("Firefox");
+
+
         }
 
         private void DisWinDef_Click(object sender, EventArgs e)

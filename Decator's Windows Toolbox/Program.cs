@@ -12,13 +12,7 @@ using Microsoft.Win32;
 namespace Decator_s_Windows_Toolbox {
     public class Functions
     {
-        public string tempPath = System.IO.Path.GetTempPath();
-
-        static public void Log(string message)
-        {
-            message = String.Format("Decator\'s toolbox:: {0}", message);
-            Console.WriteLine(message);
-        }
+        static public string startingTime = DateTime.Now.ToString("dd-hh-mm-ss");
 
         static public async void DownloadURL(string url,  string location)
         {
@@ -42,7 +36,6 @@ namespace Decator_s_Windows_Toolbox {
             {
                 using (RegistryKey WindowsDefenderFeatures = Registry.LocalMachine.OpenSubKey(@"Software\Microsoft\Windows Defender\Features\", true))
                 {
-                    Log(String.Format("{0}", WindowsDefenderFeatures.GetValue("MpPlatformKillbitsFromEngine")));
                     WindowsDefenderFeatures.SetValue("MpPlatformKillbitsFromEngine", 0);
                     WindowsDefenderFeatures.SetValue("TamperProtectionSource", 0, RegistryValueKind.DWord);
                     WindowsDefenderFeatures.SetValue("MpCapability", 0);
@@ -93,9 +86,21 @@ namespace Decator_s_Windows_Toolbox {
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
+        /// 
+        static public string startingTime = DateTime.Now.ToString("dd-hh-mm-ss");
+        static public string tempPath = System.IO.Path.GetTempPath();
+        static public string logfile = String.Format("{0}decators_windows_toolbox_{1}", tempPath, startingTime);
+
+
         [STAThread]
         static void Main()
         {
+            if (!File.Exists(logfile))
+                File.Delete(logfile);
+            using (File.Create(logfile)) ;
+
+
+
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
