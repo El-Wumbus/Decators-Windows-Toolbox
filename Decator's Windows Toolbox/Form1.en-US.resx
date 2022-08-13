@@ -1,0 +1,398 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LogoBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LogoBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LogoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="LogoBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="LogoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 129</value>
+  </data>
+  <data name="ConfirmButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ConfirmButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="ConfirmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 60</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ConfirmButton.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ExitButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ExitButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="ExitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 589</value>
+  </data>
+  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 60</value>
+  </data>
+  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="InstallVscode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallVscode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 0</value>
+  </data>
+  <data name="InstallVscode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallVscode.Text" xml:space="preserve">
+    <value>Install VScode</value>
+  </data>
+  <data name="InstallGsudo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallGsudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 414</value>
+  </data>
+  <data name="InstallGsudo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallGsudo.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="InstallGsudo.Text" xml:space="preserve">
+    <value>Install Gsudo</value>
+  </data>
+  <data name="InstallVLC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 368</value>
+  </data>
+  <data name="InstallVLC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallVLC.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="InstallVLC.Text" xml:space="preserve">
+    <value>Install VLC</value>
+  </data>
+  <data name="InstallPython.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallPython.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 276</value>
+  </data>
+  <data name="InstallPython.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallPython.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="InstallPython.Text" xml:space="preserve">
+    <value>Install Python3</value>
+  </data>
+  <data name="InstallWaterfox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallWaterfox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 322</value>
+  </data>
+  <data name="InstallWaterfox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallWaterfox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="InstallWaterfox.Text" xml:space="preserve">
+    <value>Install Waterfox</value>
+  </data>
+  <data name="InstallNuGet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallNuGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 230</value>
+  </data>
+  <data name="InstallNuGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallNuGet.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="InstallNuGet.Text" xml:space="preserve">
+    <value>Install NuGet</value>
+  </data>
+  <data name="DisWinDef.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DisWinDef.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="DisWinDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="DisWinDef.Text" xml:space="preserve">
+    <value>Disable Windows Defender</value>
+  </data>
+  <data name="DisWinDef.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="InstallTerminal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallTerminal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 184</value>
+  </data>
+  <data name="InstallTerminal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallTerminal.Text" xml:space="preserve">
+    <value>Install Windows Terminal</value>
+  </data>
+  <data name="InstallAalacritty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallAalacritty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 138</value>
+  </data>
+  <data name="InstallAalacritty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallAalacritty.Text" xml:space="preserve">
+    <value>Install Alacritty</value>
+  </data>
+  <data name="InstallVim.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallVim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 46</value>
+  </data>
+  <data name="InstallVim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallVim.Text" xml:space="preserve">
+    <value>Install Vim</value>
+  </data>
+  <data name="InstallGit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallGit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 92</value>
+  </data>
+  <data name="InstallGit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallGit.Text" xml:space="preserve">
+    <value>Install Git</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 12</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 494</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 147</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 436</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 661</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>
