@@ -239,14 +239,8 @@
   <data name="InstallGsudo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="InstallGsudo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 414</value>
-  </data>
   <data name="InstallGsudo.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
-  </data>
-  <data name="InstallGsudo.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
   </data>
   <data name="InstallGsudo.Text" xml:space="preserve">
     <value>Install Gsudo</value>
@@ -254,14 +248,8 @@
   <data name="InstallVLC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 368</value>
-  </data>
   <data name="InstallVLC.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
-  </data>
-  <data name="InstallVLC.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
   </data>
   <data name="InstallVLC.Text" xml:space="preserve">
     <value>Install VLC</value>
@@ -269,14 +257,8 @@
   <data name="InstallPython.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="InstallPython.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 276</value>
-  </data>
   <data name="InstallPython.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
-  </data>
-  <data name="InstallPython.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
   </data>
   <data name="InstallPython.Text" xml:space="preserve">
     <value>Install Python3</value>
@@ -284,14 +266,8 @@
   <data name="InstallWaterfox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="InstallWaterfox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 322</value>
-  </data>
   <data name="InstallWaterfox.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
-  </data>
-  <data name="InstallWaterfox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
   </data>
   <data name="InstallWaterfox.Text" xml:space="preserve">
     <value>Install Waterfox</value>
@@ -299,14 +275,8 @@
   <data name="InstallNuGet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="InstallNuGet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 230</value>
-  </data>
   <data name="InstallNuGet.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
-  </data>
-  <data name="InstallNuGet.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
   </data>
   <data name="InstallNuGet.Text" xml:space="preserve">
     <value>Install NuGet</value>

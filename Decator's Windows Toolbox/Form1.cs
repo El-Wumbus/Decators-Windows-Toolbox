@@ -44,13 +44,9 @@ namespace Decator_s_Windows_Toolbox
 
     private void ConfirmButton_1(object sender, EventArgs e) //Confirm Button
     {
-        if (WingetPrograms.Count == 0)
-            {
-                Log("No actions specified");
-            }
-           else if (!backgroundWorker2.IsBusy)
+ 
+      if (!backgroundWorker2.IsBusy)
       {
-        Log("Now running actions specified.");
         backgroundWorker2.RunWorkerAsync();
       }
       else
@@ -112,6 +108,11 @@ namespace Decator_s_Windows_Toolbox
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void WindowsToolbox_Load(object sender, EventArgs e)
+        {
+            Log("Windows Tool Box Loaded.");
         }
 
         private void DisWinDef_Click(object sender, EventArgs e)
@@ -180,8 +181,17 @@ namespace Decator_s_Windows_Toolbox
         WingetPrograms.Add("gerardog.gsudo");
       if (install_alacritty_winget)
         WingetPrograms.Add("Alacritty.Alacritty");
+      if (WingetPrograms.Count == 0)
+            {
+                Log("No actions specified");
+                return;
+            }
+            else
+            {
+                Log("Now running actions specified.");
 
-      InstallationWorker.RunWorkerAsync();
+            }
+            InstallationWorker.RunWorkerAsync();
       while(true)
             {
                 if (!InstallationWorker.IsBusy)

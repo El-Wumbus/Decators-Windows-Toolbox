@@ -34,6 +34,11 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.InstallGsudo = new System.Windows.Forms.Button();
+            this.InstallVLC = new System.Windows.Forms.Button();
+            this.InstallPython = new System.Windows.Forms.Button();
+            this.InstallWaterfox = new System.Windows.Forms.Button();
+            this.InstallNuGet = new System.Windows.Forms.Button();
             this.DisWinDef = new System.Windows.Forms.Button();
             this.InstallTerminal = new System.Windows.Forms.Button();
             this.InstallAalacritty = new System.Windows.Forms.Button();
@@ -42,11 +47,6 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.InstallGsudo = new System.Windows.Forms.Button();
-            this.InstallVLC = new System.Windows.Forms.Button();
-            this.InstallPython = new System.Windows.Forms.Button();
-            this.InstallWaterfox = new System.Windows.Forms.Button();
-            this.InstallNuGet = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -104,6 +104,46 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // InstallGsudo
+            // 
+            resources.ApplyResources(this.InstallGsudo, "InstallGsudo");
+            this.InstallGsudo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallGsudo.Name = "InstallGsudo";
+            this.InstallGsudo.UseVisualStyleBackColor = true;
+            this.InstallGsudo.Click += new System.EventHandler(this.InstallGsudo_Click);
+            // 
+            // InstallVLC
+            // 
+            resources.ApplyResources(this.InstallVLC, "InstallVLC");
+            this.InstallVLC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallVLC.Name = "InstallVLC";
+            this.InstallVLC.UseVisualStyleBackColor = true;
+            this.InstallVLC.Click += new System.EventHandler(this.InstallVLC_Click);
+            // 
+            // InstallPython
+            // 
+            resources.ApplyResources(this.InstallPython, "InstallPython");
+            this.InstallPython.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallPython.Name = "InstallPython";
+            this.InstallPython.UseVisualStyleBackColor = true;
+            this.InstallPython.Click += new System.EventHandler(this.InstallPython_Click);
+            // 
+            // InstallWaterfox
+            // 
+            resources.ApplyResources(this.InstallWaterfox, "InstallWaterfox");
+            this.InstallWaterfox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallWaterfox.Name = "InstallWaterfox";
+            this.InstallWaterfox.UseVisualStyleBackColor = true;
+            this.InstallWaterfox.Click += new System.EventHandler(this.InstallWaterfox_Click);
+            // 
+            // InstallNuGet
+            // 
+            resources.ApplyResources(this.InstallNuGet, "InstallNuGet");
+            this.InstallNuGet.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallNuGet.Name = "InstallNuGet";
+            this.InstallNuGet.UseVisualStyleBackColor = true;
+            this.InstallNuGet.Click += new System.EventHandler(this.InstallNuGet_Click);
             // 
             // DisWinDef
             // 
@@ -164,46 +204,6 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             // 
-            // InstallGsudo
-            // 
-            resources.ApplyResources(this.InstallGsudo, "InstallGsudo");
-            this.InstallGsudo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InstallGsudo.Name = "InstallGsudo";
-            this.InstallGsudo.UseVisualStyleBackColor = true;
-            this.InstallGsudo.Click += new System.EventHandler(this.InstallGsudo_Click);
-            // 
-            // InstallVLC
-            // 
-            resources.ApplyResources(this.InstallVLC, "InstallVLC");
-            this.InstallVLC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InstallVLC.Name = "InstallVLC";
-            this.InstallVLC.UseVisualStyleBackColor = true;
-            this.InstallVLC.Click += new System.EventHandler(this.InstallVLC_Click);
-            // 
-            // InstallPython
-            // 
-            resources.ApplyResources(this.InstallPython, "InstallPython");
-            this.InstallPython.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InstallPython.Name = "InstallPython";
-            this.InstallPython.UseVisualStyleBackColor = true;
-            this.InstallPython.Click += new System.EventHandler(this.InstallPython_Click);
-            // 
-            // InstallWaterfox
-            // 
-            resources.ApplyResources(this.InstallWaterfox, "InstallWaterfox");
-            this.InstallWaterfox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InstallWaterfox.Name = "InstallWaterfox";
-            this.InstallWaterfox.UseVisualStyleBackColor = true;
-            this.InstallWaterfox.Click += new System.EventHandler(this.InstallWaterfox_Click);
-            // 
-            // InstallNuGet
-            // 
-            resources.ApplyResources(this.InstallNuGet, "InstallNuGet");
-            this.InstallNuGet.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InstallNuGet.Name = "InstallNuGet";
-            this.InstallNuGet.UseVisualStyleBackColor = true;
-            this.InstallNuGet.Click += new System.EventHandler(this.InstallNuGet_Click);
-            // 
             // WindowsToolbox
             // 
             this.AcceptButton = this.ConfirmButton;
@@ -222,6 +222,7 @@
             this.MinimizeBox = false;
             this.Name = "WindowsToolbox";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Load += new System.EventHandler(this.WindowsToolbox_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
