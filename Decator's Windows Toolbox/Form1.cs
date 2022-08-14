@@ -45,7 +45,7 @@ namespace Decator_s_Windows_Toolbox
 
         private void Log(string message)
         {
-            message = String.Format("Decator\'s toolbox:: {0}\n", message);
+            message = String.Format("{0}\n", message);
             TextLog(message);
 
             using (FileStream fs = File.OpenWrite(Program.logfile))
