@@ -128,8 +128,12 @@ namespace Decator_s_Windows_Toolbox
         {
             Log("Windows Tool Box Loaded.");
             Log(String.Format("Logging to '{0}'.", Program.logfile));
-            progressBar1.Style = ProgressBarStyle.Marquee;
             progressBar1.Visible = false;
+            progressBar1.Style = ProgressBarStyle.Marquee;
+            textBox3.Text = "Author: Decator\r\n" +
+                            "Github: https://tinyurl.com/DecatorsTools\r\n" +
+                            "Version: 0.1.0\r\n" +
+                            "";
         }
 
         private void EnableNFS_Click(object sender, EventArgs e)
@@ -274,6 +278,17 @@ namespace Decator_s_Windows_Toolbox
         private void PATHBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InstallNvim_Click(object sender, EventArgs e)
+        {
+            WingetPrograms.Add("Neovim.Neovim");
+            InstallLog("Neovim");
         }
 
         private void DisWinDef_Click(object sender, EventArgs e)

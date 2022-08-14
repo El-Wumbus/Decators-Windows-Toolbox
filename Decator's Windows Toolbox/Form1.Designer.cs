@@ -34,6 +34,8 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.InstallNvim = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.AddPATH = new System.Windows.Forms.Button();
             this.PATHBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -71,7 +73,7 @@
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -116,6 +118,7 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.panel1.Controls.Add(this.InstallNvim);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.AddPATH);
             this.panel1.Controls.Add(this.PATHBox);
@@ -154,6 +157,23 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // InstallNvim
+            // 
+            resources.ApplyResources(this.InstallNvim, "InstallNvim");
+            this.InstallNvim.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallNvim.Name = "InstallNvim";
+            this.InstallNvim.UseVisualStyleBackColor = true;
+            this.InstallNvim.Click += new System.EventHandler(this.InstallNvim_Click);
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Name = "textBox2";
             // 
             // AddPATH
             // 
@@ -449,14 +469,16 @@
             this.progressBar1.Value = 1;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // textBox2
+            // textBox3
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Name = "textBox2";
+            this.textBox3.AcceptsReturn = true;
+            this.textBox3.AcceptsTab = true;
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // WindowsToolbox
             // 
@@ -466,6 +488,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.CancelButton = this.ExitButton;
             this.ControlBox = false;
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
@@ -483,6 +506,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -530,5 +554,7 @@
         private System.Windows.Forms.TextBox PATHBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button InstallNvim;
     }
 }
