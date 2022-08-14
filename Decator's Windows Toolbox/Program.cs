@@ -51,7 +51,7 @@ namespace Decator_s_Windows_Toolbox {
 
         static public int InstallProgramWinget(string program_name)
         {
-            string command = String.Format("install {0}", program_name);
+            string command = String.Format("install {0}  --accept-package-agreements --accept-source-agreements", program_name);
             Process winget = new Process();
             
             winget.StartInfo.FileName = "winget";
