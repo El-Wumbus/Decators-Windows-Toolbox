@@ -15,7 +15,7 @@ namespace Decator_s_Windows_Toolbox
     {
  
 
-        List<string> WingetPrograms = new List<string>();
+    List<string> WingetPrograms = new List<string>();
     List<string> ConfigActions = new List<string>();
     bool install_vscode_winget = false, 
             install_git_winget = false, 
@@ -243,6 +243,12 @@ namespace Decator_s_Windows_Toolbox
 
         }
 
+        private void EnableWSL_Click(object sender, EventArgs e)
+        {
+            Log("Will Enable WSL");
+            ConfigActions.Add("EnableWSL");
+        }
+
         private void DisWinDef_Click(object sender, EventArgs e)
         {
             Log("Will Disable Windows Defender");
@@ -344,14 +350,19 @@ namespace Decator_s_Windows_Toolbox
             foreach (string Action in configurationList)
             {
                 if (Action == "DisWinDef")
-                Functions.ApplyRegistryEdits(Action);
-                if (Action == "EnableNFS")
+                    Functions.ApplyRegistryEdits(Action);
+                else if (Action == "EnableNFS")
                     if (Functions.RunCommand("powershell", "Enable-WindowsOptionalFeature -FeatureName ServicesForNFS-ClientOnly, ClientForNFS-Infrastructure -Online -NoRestart") != 0)
                         Log("Couldn\'t enable NFS");
                     else
                         Log("NFS enabled.");
-
-
+                else if (Action == "EnableWSL")
+                    if (Functions.RunCommand("powershell", "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  -NoRestart") !=0)
+                        Log("Couldn\'t enable WSL");
+                    else {
+                        Log("WSL enabled.");
+                        Log("A restart is required for enabling of WSL to take effect.");
+                    }
             }
       foreach (string Program in installationList)
       {

@@ -239,6 +239,18 @@
   <data name="InstallVscode.Text" xml:space="preserve">
     <value>Install VScode</value>
   </data>
+  <data name="EnableWSL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EnableWSL.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="EnableWSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="EnableWSL.Text" xml:space="preserve">
+    <value>Enable WSL</value>
+  </data>
   <data name="InstallFirefox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -504,7 +516,7 @@
     <value>NoControl</value>
   </data>
   <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 49</value>
+    <value>3, 96</value>
   </data>
   <data name="DisWinDef.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>

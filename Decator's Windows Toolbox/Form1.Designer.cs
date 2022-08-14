@@ -34,6 +34,7 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.EnableWSL = new System.Windows.Forms.Button();
             this.InstallFirefox = new System.Windows.Forms.Button();
             this.InstallGithubDesktop = new System.Windows.Forms.Button();
             this.InstallDosBox = new System.Windows.Forms.Button();
@@ -107,6 +108,7 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.panel1.Controls.Add(this.EnableWSL);
             this.panel1.Controls.Add(this.InstallFirefox);
             this.panel1.Controls.Add(this.InstallGithubDesktop);
             this.panel1.Controls.Add(this.InstallDosBox);
@@ -136,6 +138,14 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // EnableWSL
+            // 
+            resources.ApplyResources(this.EnableWSL, "EnableWSL");
+            this.EnableWSL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EnableWSL.Name = "EnableWSL";
+            this.EnableWSL.UseVisualStyleBackColor = true;
+            this.EnableWSL.Click += new System.EventHandler(this.EnableWSL_Click);
             // 
             // InstallFirefox
             // 
@@ -433,5 +443,6 @@
         private System.Windows.Forms.Button InstallVMeet;
         private System.Windows.Forms.Button InstallChrome;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Button EnableWSL;
     }
 }
