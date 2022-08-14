@@ -8,10 +8,12 @@ using System.Diagnostics;
 using System.ComponentModel;
 using System.IO;
 using Microsoft.Win32;
+using System.Runtime.InteropServices;
 
 namespace Decator_s_Windows_Toolbox {
     public class Functions
     {
+
         static public string startingTime = DateTime.Now.ToString("dd-hh-mm-ss");
 
         static public async void DownloadURL(string url,  string location)
@@ -34,14 +36,12 @@ namespace Decator_s_Windows_Toolbox {
         {
             try
             {
-                using (RegistryKey WindowsDefenderFeatures = Registry.LocalMachine.OpenSubKey(@"Software\Microsoft\Windows Defender\Features\", true))
-                {
-                    WindowsDefenderFeatures.SetValue("MpPlatformKillbitsFromEngine", 0);
-                    WindowsDefenderFeatures.SetValue("TamperProtectionSource", 0, RegistryValueKind.DWord);
-                    WindowsDefenderFeatures.SetValue("MpCapability", 0);
-                    WindowsDefenderFeatures.SetValue("TamperProtection", 0, RegistryValueKind.DWord);
-                    WindowsDefenderFeatures.Close();
-                }
+                using RegistryKey WindowsDefenderFeatures = Registry.LocalMachine.OpenSubKey(@"Software\Microsoft\Windows Defender\Features\", true);
+                WindowsDefenderFeatures.SetValue("MpPlatformKillbitsFromEngine", 0);
+                WindowsDefenderFeatures.SetValue("TamperProtectionSource", 0, RegistryValueKind.DWord);
+                WindowsDefenderFeatures.SetValue("MpCapability", 0);
+                WindowsDefenderFeatures.SetValue("TamperProtection", 0, RegistryValueKind.DWord);
+                WindowsDefenderFeatures.Close();
             }
             catch (ArgumentNullException)
             {
@@ -81,7 +81,9 @@ namespace Decator_s_Windows_Toolbox {
         }
     }
 
+
     internal static class Program
+
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -97,7 +99,10 @@ namespace Decator_s_Windows_Toolbox {
         {
             if (!File.Exists(logfile))
                 File.Delete(logfile);
-            using (File.Create(logfile)) ;
+            using (File.Create(logfile))
+            {
+
+            } ;
 
 
 

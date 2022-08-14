@@ -179,7 +179,7 @@
     <value>NoControl</value>
   </data>
   <data name="LogoBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 12</value>
+    <value>9, 130</value>
   </data>
   <data name="LogoBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 3, 5, 3</value>
@@ -228,7 +228,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallVscode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 0</value>
+    <value>720, 4</value>
   </data>
   <data name="InstallVscode.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -242,6 +242,9 @@
   <data name="InstallFirefox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallFirefox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 418</value>
+  </data>
   <data name="InstallFirefox.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -250,6 +253,9 @@
   </data>
   <data name="InstallGithubDesktop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallGithubDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 372</value>
   </data>
   <data name="InstallGithubDesktop.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -260,6 +266,9 @@
   <data name="InstallDosBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallDosBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 280</value>
+  </data>
   <data name="InstallDosBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -268,6 +277,9 @@
   </data>
   <data name="InstallDebian.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallDebian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 326</value>
   </data>
   <data name="InstallDebian.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -278,6 +290,9 @@
   <data name="InstallQemu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallQemu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 234</value>
+  </data>
   <data name="InstallQemu.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -286,6 +301,9 @@
   </data>
   <data name="InstallVMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallVMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 188</value>
   </data>
   <data name="InstallVMB.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -296,6 +314,9 @@
   <data name="InstallVMP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallVMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 142</value>
+  </data>
   <data name="InstallVMP.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -304,6 +325,9 @@
   </data>
   <data name="InstallSteam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallSteam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 50</value>
   </data>
   <data name="InstallSteam.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -314,6 +338,9 @@
   <data name="InstallVMeet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallVMeet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 96</value>
+  </data>
   <data name="InstallVMeet.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -322,6 +349,9 @@
   </data>
   <data name="InstallChrome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallChrome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 4</value>
   </data>
   <data name="InstallChrome.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -398,6 +428,9 @@
   <data name="InstallGsudo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallGsudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 418</value>
+  </data>
   <data name="InstallGsudo.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -409,6 +442,9 @@
   </data>
   <data name="InstallVLC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 372</value>
   </data>
   <data name="InstallVLC.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -422,6 +458,9 @@
   <data name="InstallPython.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallPython.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 280</value>
+  </data>
   <data name="InstallPython.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -434,6 +473,9 @@
   <data name="InstallWaterfox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="InstallWaterfox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 326</value>
+  </data>
   <data name="InstallWaterfox.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
   </data>
@@ -445,6 +487,9 @@
   </data>
   <data name="InstallNuGet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="InstallNuGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 234</value>
   </data>
   <data name="InstallNuGet.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -480,7 +525,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallTerminal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 184</value>
+    <value>720, 188</value>
   </data>
   <data name="InstallTerminal.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -495,7 +540,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallAalacritty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 138</value>
+    <value>720, 142</value>
   </data>
   <data name="InstallAalacritty.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -510,7 +555,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallVim.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 46</value>
+    <value>720, 50</value>
   </data>
   <data name="InstallVim.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -525,7 +570,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallGit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 92</value>
+    <value>720, 96</value>
   </data>
   <data name="InstallGit.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -537,16 +582,16 @@
     <value>Install Git</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 12</value>
+    <value>319, 67</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>853, 571</value>
+    <value>853, 516</value>
   </data>
   <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 147</value>
+    <value>9, 265</value>
   </data>
   <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 436</value>
+    <value>304, 318</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1184, 661</value>

@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using MaterialSkin.Controls;
+using MaterialSkin;
 
 namespace Decator_s_Windows_Toolbox
 {
  
-  public partial class WindowsToolbox : Form
-  {
+  public partial class WindowsToolbox : MaterialForm
+    {
  
 
         List<string> WingetPrograms = new List<string>();
@@ -30,10 +29,49 @@ namespace Decator_s_Windows_Toolbox
             install_waterfox_winget = false, 
             install_vlc_winget = false,
             install_gsudo_winget = false;
-    public WindowsToolbox()
+
+        [DllImport("dwmapi.dll")]
+        private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, ref int attrValue, int attrSize);
+
+        private const int DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1 = 19;
+        private const int DWMWA_USE_IMMERSIVE_DARK_MODE = 20;
+
+        private static bool UseImmersiveDarkMode(IntPtr handle, bool enabled)
+        {
+            if (IsWindows10OrGreater(17763))
+            {
+                var attribute = DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1;
+                if (IsWindows10OrGreater(18985))
+                {
+                    attribute = DWMWA_USE_IMMERSIVE_DARK_MODE;
+                }
+
+                int useImmersiveDarkMode = enabled ? 1 : 0;
+                return DwmSetWindowAttribute(handle, (int)attribute, ref useImmersiveDarkMode, sizeof(int)) == 0;
+            }
+
+            return false;
+        }
+
+        private static bool IsWindows10OrGreater(int build = -1)
+        {
+            return Environment.OSVersion.Version.Major >= 10 && Environment.OSVersion.Version.Build >= build;
+        }
+
+
+        public WindowsToolbox()
     {
       InitializeComponent();
-    }
+            //            UseImmersiveDarkMode(this.Handle, true);
+            this.ControlBox = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Grey900, Primary.Grey900, Primary.Grey900, Accent.LightBlue200, TextShade.WHITE);
+
+        }
 
         private void Log(string message)
         {

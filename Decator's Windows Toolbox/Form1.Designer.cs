@@ -75,7 +75,7 @@
             // ConfirmButton
             // 
             resources.ApplyResources(this.ConfirmButton, "ConfirmButton");
-            this.ConfirmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.ConfirmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ConfirmButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ConfirmButton.FlatAppearance.BorderSize = 0;
             this.ConfirmButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(79)))), ((int)(((byte)(191)))));
@@ -86,7 +86,7 @@
             // ExitButton
             // 
             resources.ApplyResources(this.ExitButton, "ExitButton");
-            this.ExitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.ExitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitButton.FlatAppearance.BorderSize = 0;
             this.ExitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(79)))), ((int)(((byte)(191)))));
@@ -105,6 +105,7 @@
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.panel1.Controls.Add(this.InstallFirefox);
             this.panel1.Controls.Add(this.InstallGithubDesktop);
             this.panel1.Controls.Add(this.InstallDosBox);
@@ -348,7 +349,7 @@
             // richTextBox1
             // 
             resources.ApplyResources(this.richTextBox1, "richTextBox1");
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Name = "richTextBox1";
@@ -359,8 +360,9 @@
             this.AcceptButton = this.ConfirmButton;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.CancelButton = this.ExitButton;
+            this.ControlBox = false;
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ExitButton);
