@@ -3,4 +3,4 @@
 I've never used C# or WinForms before. This application is **Very** work-in-progress.  
 I've done most of this in a couple hours while using Visual Studio for the first time (suffering on windows).
 
-[![Windows Toolbox Screenshot](https://i.imgur.com/KO7d8hH.png)](https://github.com/El-Wumbus/Decators-Windows-Toolbox)
+[![Windows Toolbox Screenshot](https://i.imgur.com/WBDafXl.png)](https://github.com/El-Wumbus/Decators-Windows-Toolbox)
