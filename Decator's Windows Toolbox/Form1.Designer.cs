@@ -475,6 +475,7 @@
             this.textBox3.AcceptsTab = true;
             resources.ApplyResources(this.textBox3, "textBox3");
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;

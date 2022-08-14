@@ -132,8 +132,7 @@ namespace Decator_s_Windows_Toolbox
             progressBar1.Style = ProgressBarStyle.Marquee;
             textBox3.Text = "Author: Decator\r\n" +
                             "Github: https://tinyurl.com/DecatorsTools\r\n" +
-                            "Version: 0.1.0\r\n" +
-                            "";
+                            "Version: 0.1.0";
         }
 
         private void EnableNFS_Click(object sender, EventArgs e)
