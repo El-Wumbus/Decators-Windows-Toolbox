@@ -17,6 +17,7 @@ namespace Decator_s_Windows_Toolbox
 
     List<string> WingetPrograms = new List<string>();
     List<string> ConfigActions = new List<string>();
+        List<string> AddToPATH = new List<string>();
     bool install_vscode_winget = false, 
             install_git_winget = false, 
             install_vim_winget = false, 
@@ -141,6 +142,7 @@ namespace Decator_s_Windows_Toolbox
         {
             WingetPrograms.Clear();
             ConfigActions.Clear();
+            AddToPATH.Clear();
             install_vscode_winget = false;
             install_git_winget = false;
             install_vim_winget = false;
@@ -249,6 +251,31 @@ namespace Decator_s_Windows_Toolbox
             ConfigActions.Add("EnableWSL");
         }
 
+        private void InstallAlpineWSL_Click(object sender, EventArgs e)
+        {
+            InstallLog("Alpine (WSL)");
+            WingetPrograms.Add("9P804CRF0395");
+        }
+
+        private void InstallChoco_Click(object sender, EventArgs e)
+        {
+            Log("Chocolatey");
+            ConfigActions.Add("AddChoco");
+        }
+
+        private void AddPATH_Click(object sender, EventArgs e)
+        {
+            ConfigActions.Add("AddPATH");
+            AddToPATH.Add(PATHBox.Text);
+            Log(String.Format("Adding {0} to PATH",PATHBox.Text));
+            PATHBox.Text = "";
+        }
+
+        private void PATHBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void DisWinDef_Click(object sender, EventArgs e)
         {
             Log("Will Disable Windows Defender");
@@ -346,6 +373,7 @@ namespace Decator_s_Windows_Toolbox
     {
             List<string> configurationList = ConfigActions.Distinct().ToList();
             List<string> installationList = WingetPrograms.Distinct().ToList();
+            List<string> addPath = AddToPATH.Distinct().ToList();
             progressBar1.Visible = true;
             foreach (string Action in configurationList)
             {
@@ -363,6 +391,38 @@ namespace Decator_s_Windows_Toolbox
                         Log("WSL enabled.");
                         Log("A restart is required for enabling of WSL to take effect.");
                     }
+                else if (Action == "AddChoco")
+                    if (Functions.RunCommand("powershell", "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))") != 0)
+                        Log("Couldn\'t install Chocolatey");
+                    else
+                    {
+                        Log("Chocolatey installed.");
+                    }
+
+                else if (Action == "AddPATH")
+                {
+                List<string> strings = new List<string>();
+                string realpath;
+                    foreach (string item in addPath) {
+                        if (!item.EndsWith("\\"))
+                        {
+                            realpath = item + @"\";
+                        }
+                        else
+                        { 
+                            realpath = item; 
+                        }
+                        strings.Add(realpath);
+                    }
+
+                    string path = string.Join(";", strings);
+                        string Command = String.Format("/C setx path \"%PATH%;{0}\"",path);
+                    Log(Command);
+                        if (Functions.RunCommand("cmd.exe", Command) != 0) {
+                            Log(String.Format("Couldn't add {0} to PATH.", path));
+                   }
+                }
+                   
             }
       foreach (string Program in installationList)
       {

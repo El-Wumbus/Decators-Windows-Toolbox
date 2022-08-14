@@ -57,275 +57,106 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallVim.Name" xml:space="preserve">
-    <value>InstallVim</value>
-  </data>
-  <data name="&gt;&gt;InstallVMB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ClearButton.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 5, 3</value>
-  </data>
-  <data name="&gt;&gt;ClearButton.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallNuGet.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;InstallGit.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="applicationInstallationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 20</value>
-  </data>
-  <data name="&gt;&gt;InstallAalacritty.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.Name" xml:space="preserve">
-    <value>richTextBox3</value>
-  </data>
-  <data name="InstallPython.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 450</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
-    <value>richTextBox1</value>
-  </data>
-  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;backgroundWorker2.Name" xml:space="preserve">
-    <value>backgroundWorker2</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
-    <value>progressBar1</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;InstallDosBox.Name" xml:space="preserve">
-    <value>InstallDosBox</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
   </data>
-  <data name="&gt;&gt;InstallGithubDesktop.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;InstallPython.ZOrder" xml:space="preserve">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;InstallationWorker.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
   </data>
-  <data name="&gt;&gt;LogoBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 451</value>
-  </data>
-  <data name="EnableNFS.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;InstallVim.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="InstallGithubDesktop.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="InstallPython.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 276</value>
-  </data>
-  <data name="&gt;&gt;applicationInstallationToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LogoBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 2</value>
+  <data name="&gt;&gt;InstallVMeet.Name" xml:space="preserve">
+    <value>InstallVMeet</value>
   </data>
   <data name="richTextBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 147</value>
   </data>
-  <data name="&gt;&gt;InstallVscode.ZOrder" xml:space="preserve">
-    <value>26</value>
+  <data name="&gt;&gt;InstallGit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 207</value>
+  <data name="&gt;&gt;PATHBox.Name" xml:space="preserve">
+    <value>PATHBox</value>
   </data>
-  <data name="&gt;&gt;InstallChrome.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;InstallTerminal.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="InstallSteam.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;InstallVMB.Name" xml:space="preserve">
-    <value>InstallVMB</value>
-  </data>
-  <data name="EnableWSL.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="InstallGsudo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 414</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="InstallTerminal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 187</value>
-  </data>
-  <data name="InstallDosBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 276</value>
-  </data>
-  <data name="&gt;&gt;EnableNFS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="InstallVMB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 184</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
-  </data>
-  <data name="InstallNuGet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 230</value>
-  </data>
-  <data name="&gt;&gt;InstallDebian.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;configurationToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;installvscode.Name" xml:space="preserve">
-    <value>installvscode</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallVLC.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;InstallVscode.Name" xml:space="preserve">
-    <value>InstallVscode</value>
-  </data>
-  <data name="&gt;&gt;InstallVMP.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;installvscode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallTerminal.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;materialDivider1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialDivider, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;applicationInstallationToolStripMenuItem.Name" xml:space="preserve">
-    <value>applicationInstallationToolStripMenuItem</value>
+  <data name="InstallChrome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 0</value>
   </data>
   <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="&gt;&gt;richTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InstallGsudo.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="InstallVim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>867, 95</value>
+  </data>
+  <data name="applicationInstallationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="&gt;&gt;InstallGit.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;applicationInstallationToolStripMenuItem.Name" xml:space="preserve">
+    <value>applicationInstallationToolStripMenuItem</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
   </data>
-  <data name="&gt;&gt;InstallNuGet.Name" xml:space="preserve">
-    <value>InstallNuGet</value>
+  <data name="&gt;&gt;InstallVLC.Name" xml:space="preserve">
+    <value>InstallVLC</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;InstallGithubDesktop.Name" xml:space="preserve">
+    <value>InstallGithubDesktop</value>
   </data>
-  <data name="InstallFirefox.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 514</value>
   </data>
-  <data name="installvscode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1042, 12</value>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
-  <data name="&gt;&gt;EnableNFS.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;materialDivider1.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;InstallDebian.Name" xml:space="preserve">
-    <value>InstallDebian</value>
-  </data>
-  <data name="InstallVMeet.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;InstallVMB.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="EnableNFS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
-  </data>
-  <data name="&gt;&gt;InstallQemu.Type" xml:space="preserve">
+  <data name="&gt;&gt;EnableWSL.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;InstallAalacritty.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="InstallChrome.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="InstallAalacritty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 141</value>
-  </data>
-  <data name="&gt;&gt;InstallVMeet.Type" xml:space="preserve">
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;InstallVMeet.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;InstallPython.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="InstallVMeet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 92</value>
+  </data>
+  <data name="&gt;&gt;InstallSteam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;richTextBox2.Name" xml:space="preserve">
     <value>richTextBox2</value>
@@ -333,536 +164,867 @@
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="InstallGithubDesktop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 368</value>
-  </data>
-  <data name="LogoBox.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;InstallTerminal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallWaterfox.Name" xml:space="preserve">
-    <value>InstallWaterfox</value>
-  </data>
-  <data name="&gt;&gt;InstallTerminal.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="InstallTerminal.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;InstallChrome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallVLC.Name" xml:space="preserve">
-    <value>InstallVLC</value>
-  </data>
-  <data name="configurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 20</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;InstallDebian.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 16</value>
-  </data>
-  <data name="&gt;&gt;InstallQemu.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;InstallChrome.Name" xml:space="preserve">
-    <value>InstallChrome</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 147</value>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 451</value>
   </data>
   <data name="&gt;&gt;LogoBox.Name" xml:space="preserve">
     <value>LogoBox</value>
   </data>
-  <data name="&gt;&gt;ClearButton.Name" xml:space="preserve">
-    <value>ClearButton</value>
+  <data name="&gt;&gt;InstallVMB.Name" xml:space="preserve">
+    <value>InstallVMB</value>
   </data>
-  <data name="&gt;&gt;InstallGsudo.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 450</value>
   </data>
-  <data name="&gt;&gt;InstallSteam.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>WindowsToolbox</value>
-  </data>
-  <data name="&gt;&gt;InstallationWorker.Name" xml:space="preserve">
-    <value>InstallationWorker</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="InstallWaterfox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;InstallFirefox.Name" xml:space="preserve">
-    <value>InstallFirefox</value>
-  </data>
-  <data name="&gt;&gt;InstallAalacritty.Name" xml:space="preserve">
-    <value>InstallAalacritty</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;InstallVMeet.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="InstallDebian.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;InstallGsudo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallGit.Name" xml:space="preserve">
-    <value>InstallGit</value>
-  </data>
-  <data name="&gt;&gt;LogoBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="InstallVMP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 138</value>
-  </data>
-  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="&gt;&gt;EnableWSL.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;InstallVMP.Name" xml:space="preserve">
-    <value>InstallVMP</value>
-  </data>
-  <data name="&gt;&gt;InstallVMP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallGsudo.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="EnableWSL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 50</value>
-  </data>
-  <data name="InstallVLC.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;configurationToolStripMenuItem.Name" xml:space="preserve">
-    <value>configurationToolStripMenuItem</value>
-  </data>
-  <data name="InstallFirefox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 414</value>
-  </data>
-  <data name="&gt;&gt;InstallFirefox.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallGsudo.Name" xml:space="preserve">
-    <value>InstallGsudo</value>
-  </data>
-  <data name="InstallVscode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1042, 12</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallSteam.Name" xml:space="preserve">
-    <value>InstallSteam</value>
-  </data>
-  <data name="&gt;&gt;InstallDosBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallWaterfox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallGithubDesktop.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;InstallDosBox.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;EnableNFS.Name" xml:space="preserve">
-    <value>EnableNFS</value>
-  </data>
-  <data name="ConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1012, 589</value>
-  </data>
-  <data name="richTextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="InstallDebian.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 322</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ClearButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DisWinDef.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="InstallVMeet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 92</value>
-  </data>
-  <data name="&gt;&gt;InstallDebian.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="InstallVMP.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;InstallVLC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 514</value>
-  </data>
-  <data name="InstallSteam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 46</value>
-  </data>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
-    <value>linkLabel1</value>
-  </data>
-  <data name="&gt;&gt;InstallTerminal.Name" xml:space="preserve">
-    <value>InstallTerminal</value>
-  </data>
-  <data name="&gt;&gt;InstallAalacritty.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallWaterfox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ClearButton.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="InstallWaterfox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 322</value>
-  </data>
-  <data name="&gt;&gt;InstallWaterfox.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="InstallNuGet.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="InstallVscode.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LogoBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="installvscode.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;DisWinDef.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;installvscode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="InstallVim.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Decator's Windows Toolbox</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="materialDivider1.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;InstallGit.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
-    <value>ExitButton</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="materialDivider1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 434</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallGithubDesktop.Name" xml:space="preserve">
-    <value>InstallGithubDesktop</value>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 437</value>
   </data>
   <data name="&gt;&gt;EnableWSL.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="DisWinDef.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 602</value>
-  </data>
-  <data name="InstallQemu.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;InstallVMP.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="InstallGit.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;InstallChrome.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;InstallChoco.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="InstallQemu.Location" type="System.Drawing.Point, System.Drawing">
     <value>587, 230</value>
   </data>
-  <data name="&gt;&gt;InstallVMB.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="InstallDosBox.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="&gt;&gt;materialDivider1.Name" xml:space="preserve">
+    <value>materialDivider1</value>
   </data>
-  <data name="&gt;&gt;InstallNuGet.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallFirefox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallPython.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="richTextBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;InstallQemu.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 622</value>
-  </data>
-  <data name="&gt;&gt;InstallPython.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;installvscode.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;InstallVMP.Name" xml:space="preserve">
+    <value>InstallVMP</value>
+  </data>
+  <data name="LogoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;EnableWSL.Name" xml:space="preserve">
+    <value>EnableWSL</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="InstallQemu.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;InstallVMB.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 469</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;EnableNFS.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="InstallAalacritty.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 602</value>
+  </data>
+  <data name="InstallFirefox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;InstallTerminal.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 368</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 437</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 207</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ClearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 512</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InstallVscode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 12</value>
+  </data>
+  <data name="&gt;&gt;InstallSteam.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;InstallPython.Name" xml:space="preserve">
-    <value>InstallPython</value>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;DisWinDef.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;richTextBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallGit.Type" xml:space="preserve">
+  <data name="&gt;&gt;InstallNuGet.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1042, 171</value>
+  <data name="&gt;&gt;InstallDebian.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>972, 12</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallFirefox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;InstallSteam.Type" xml:space="preserve">
+  <data name="&gt;&gt;PATHBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallGithubDesktop.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;InstallWaterfox.Name" xml:space="preserve">
+    <value>InstallWaterfox</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ClearButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;InstallVscode.Parent" xml:space="preserve">
+  <data name="InstallDebian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 322</value>
+  </data>
+  <data name="&gt;&gt;InstallChoco.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallDebian.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="ConfirmButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;materialDivider1.Name" xml:space="preserve">
-    <value>materialDivider1</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Name" xml:space="preserve">
-    <value>ConfirmButton</value>
-  </data>
-  <data name="&gt;&gt;InstallDosBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
   <data name="InstallGit.Location" type="System.Drawing.Point, System.Drawing">
     <value>867, 49</value>
   </data>
-  <data name="&gt;&gt;InstallNuGet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallVscode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallVMP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallSteam.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="&gt;&gt;richTextBox3.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;AddPATH.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;InstallQemu.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;InstallWaterfox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="InstallChoco.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 96</value>
+  </data>
+  <data name="InstallVMP.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;backgroundWorker2.Type" xml:space="preserve">
     <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InstallVim.Location" type="System.Drawing.Point, System.Drawing">
-    <value>867, 95</value>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;InstallFirefox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallVMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallAalacritty.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;applicationInstallationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InstallVMeet.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;InstallAalacritty.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 487</value>
+  </data>
+  <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 147</value>
+  </data>
+  <data name="InstallGithubDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 368</value>
+  </data>
+  <data name="&gt;&gt;InstallQemu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConfirmButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InstallVMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 138</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.Name" xml:space="preserve">
+    <value>richTextBox3</value>
+  </data>
+  <data name="AddPATH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 437</value>
+  </data>
+  <data name="ClearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;InstallVMP.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1042, 91</value>
   </data>
-  <data name="&gt;&gt;materialDivider1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;InstallVim.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;DisWinDef.Name" xml:space="preserve">
-    <value>DisWinDef</value>
-  </data>
-  <data name="&gt;&gt;EnableWSL.Name" xml:space="preserve">
-    <value>EnableWSL</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;InstallVLC.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InstallGithubDesktop.Type" xml:space="preserve">
+  <data name="&gt;&gt;InstallPython.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="InstallAalacritty.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="InstallWaterfox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 322</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="&gt;&gt;AddPATH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="materialDivider1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
     <value>backgroundWorker1</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
   </data>
-  <data name="InstallGsudo.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="ClearButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1042, 512</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InstallQemu.Name" xml:space="preserve">
-    <value>InstallQemu</value>
-  </data>
-  <data name="InstallVMB.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;InstallDosBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;EnableNFS.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;EnableWSL.Type" xml:space="preserve">
+  <data name="InstallDebian.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Decator's Windows Toolbox</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;InstallGithubDesktop.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallTerminal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="InstallChrome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 0</value>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;InstallVMeet.Name" xml:space="preserve">
-    <value>InstallVMeet</value>
+  <data name="&gt;&gt;InstallWaterfox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallAlpineWSL.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="InstallTerminal.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LogoBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="InstallPython.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 276</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="richTextBox3.Text" xml:space="preserve">
     <value />
   </data>
+  <data name="InstallSteam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 46</value>
+  </data>
+  <data name="&gt;&gt;installvscode.Name" xml:space="preserve">
+    <value>installvscode</value>
+  </data>
+  <data name="ConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1012, 589</value>
+  </data>
+  <data name="LogoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="&gt;&gt;InstallVscode.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallFirefox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 414</value>
+  </data>
+  <data name="&gt;&gt;InstallNuGet.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;InstallAalacritty.Name" xml:space="preserve">
+    <value>InstallAalacritty</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="InstallVLC.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InstallVLC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallAlpineWSL.Name" xml:space="preserve">
+    <value>InstallAlpineWSL</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallDosBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallationWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="InstallVim.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;installvscode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;InstallFirefox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVMB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InstallWaterfox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;EnableNFS.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PATHBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;DisWinDef.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;LogoBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVim.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;InstallNuGet.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallSteam.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="InstallNuGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 230</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
+    <value>ExitButton</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallGit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVim.Name" xml:space="preserve">
+    <value>InstallVim</value>
+  </data>
+  <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InstallVscode.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallChrome.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InstallChoco.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallChrome.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;configurationToolStripMenuItem.Name" xml:space="preserve">
+    <value>configurationToolStripMenuItem</value>
+  </data>
+  <data name="materialDivider1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 434</value>
+  </data>
+  <data name="&gt;&gt;InstallGsudo.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="InstallDosBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;InstallGsudo.Name" xml:space="preserve">
+    <value>InstallGsudo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EnableNFS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="&gt;&gt;PATHBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LogoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InstallGithubDesktop.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EnableWSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConfirmButton.Name" xml:space="preserve">
+    <value>ConfirmButton</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;installvscode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WindowsToolbox</value>
+  </data>
+  <data name="&gt;&gt;InstallDosBox.Name" xml:space="preserve">
+    <value>InstallDosBox</value>
+  </data>
+  <data name="installvscode.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Name" xml:space="preserve">
+    <value>backgroundWorker2</value>
+  </data>
+  <data name="&gt;&gt;InstallDebian.Name" xml:space="preserve">
+    <value>InstallDebian</value>
+  </data>
+  <data name="&gt;&gt;InstallGit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallQemu.Name" xml:space="preserve">
+    <value>InstallQemu</value>
+  </data>
+  <data name="&gt;&gt;EnableWSL.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="InstallGsudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 414</value>
+  </data>
+  <data name="&gt;&gt;InstallTerminal.Name" xml:space="preserve">
+    <value>InstallTerminal</value>
+  </data>
+  <data name="InstallAlpineWSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 280</value>
+  </data>
+  <data name="&gt;&gt;AddPATH.Name" xml:space="preserve">
+    <value>AddPATH</value>
+  </data>
+  <data name="&gt;&gt;DisWinDef.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 419</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ConfirmButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="configurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InstallationWorker.Name" xml:space="preserve">
+    <value>InstallationWorker</value>
+  </data>
   <data name="&gt;&gt;InstallVim.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>723, 368</value>
+  <data name="&gt;&gt;InstallVim.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="richTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="InstallPython.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;InstallVLC.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InstallVMB.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;InstallVscode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallVMP.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="InstallVscode.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="installvscode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 12</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallChoco.Name" xml:space="preserve">
+    <value>InstallChoco</value>
+  </data>
+  <data name="&gt;&gt;DisWinDef.Name" xml:space="preserve">
+    <value>DisWinDef</value>
+  </data>
+  <data name="&gt;&gt;InstallFirefox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PATHBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 437</value>
+  </data>
+  <data name="&gt;&gt;InstallVMeet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InstallNuGet.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="InstallChoco.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;InstallPython.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVMeet.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="InstallSteam.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;InstallChrome.Name" xml:space="preserve">
+    <value>InstallChrome</value>
+  </data>
+  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="EnableWSL.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;InstallQemu.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;AddPATH.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallChrome.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>972, 12</value>
+  </data>
+  <data name="&gt;&gt;InstallGsudo.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;InstallPython.Name" xml:space="preserve">
+    <value>InstallPython</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 171</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallDosBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 276</value>
+  </data>
+  <data name="InstallVMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 184</value>
+  </data>
+  <data name="&gt;&gt;ConfirmButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddPATH.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVLC.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InstallVMeet.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="DisWinDef.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallVscode.Name" xml:space="preserve">
+    <value>InstallVscode</value>
+  </data>
+  <data name="&gt;&gt;installvscode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableNFS.Name" xml:space="preserve">
+    <value>EnableNFS</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallAlpineWSL.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialDivider, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InstallTerminal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 187</value>
+  </data>
+  <data name="&gt;&gt;InstallAlpineWSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallAalacritty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EnableNFS.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;InstallNuGet.Name" xml:space="preserve">
+    <value>InstallNuGet</value>
+  </data>
+  <data name="&gt;&gt;InstallWaterfox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallDebian.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DisWinDef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableNFS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallFirefox.Name" xml:space="preserve">
+    <value>InstallFirefox</value>
+  </data>
+  <data name="richTextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;InstallGsudo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallChrome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallSteam.Name" xml:space="preserve">
+    <value>InstallSteam</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Name" xml:space="preserve">
+    <value>ClearButton</value>
+  </data>
+  <data name="&gt;&gt;PATHBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InstallAalacritty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 141</value>
+  </data>
+  <data name="&gt;&gt;InstallGithubDesktop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InstallAlpineWSL.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ConfirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;InstallGit.Name" xml:space="preserve">
+    <value>InstallGit</value>
+  </data>
+  <data name="&gt;&gt;configurationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;InstallDosBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 622</value>
+  </data>
+  <metadata name="InstallationWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 17</value>
   </metadata>
   <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -873,16 +1035,16 @@
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en-US</value>
+  </metadata>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
   <metadata name="progressBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="InstallationWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>181, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en-US</value>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
 </root>

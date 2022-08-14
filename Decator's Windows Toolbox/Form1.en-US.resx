@@ -239,6 +239,117 @@
   <data name="InstallVscode.Text" xml:space="preserve">
     <value>Install VScode</value>
   </data>
+  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>NotoMono Nerd Font, 9pt</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 492</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="textBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AddPATH.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddPATH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 437</value>
+  </data>
+  <data name="AddPATH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="AddPATH.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="AddPATH.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PATHBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>NotoMono Nerd Font, 9pt</value>
+  </data>
+  <data name="PATHBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 437</value>
+  </data>
+  <data name="PATHBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="PATHBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Add folder to PATH ("C:\MinGW\bin")</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 493</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="button2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 474</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Enter Choco package name ("vim")</value>
+  </data>
+  <data name="label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="InstallChoco.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallChoco.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="InstallChoco.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallChoco.Text" xml:space="preserve">
+    <value>Install Chocolatey Package Manager</value>
+  </data>
+  <data name="InstallAlpineWSL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InstallAlpineWSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="InstallAlpineWSL.Text" xml:space="preserve">
+    <value>Install Alpine (WSL)</value>
+  </data>
   <data name="EnableWSL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -291,7 +402,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallDebian.Location" type="System.Drawing.Point, System.Drawing">
-    <value>584, 141</value>
+    <value>448, 280</value>
   </data>
   <data name="InstallDebian.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -339,7 +450,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallSteam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 4</value>
+    <value>723, 280</value>
   </data>
   <data name="InstallSteam.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -384,7 +495,7 @@
     <value>Clear Selections</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 478</value>
+    <value>219, 492</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 23</value>
@@ -399,7 +510,7 @@
     <value>NotoMono Nerd Font, 9pt</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 478</value>
+    <value>3, 492</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 22</value>
@@ -411,13 +522,13 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 460</value>
+    <value>0, 474</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 15</value>
+    <value>198, 15</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Enter winget Package ID (e.g "vim.vim")</value>
+    <value>Enter winget Package ID ("vim.vim")</value>
   </data>
   <data name="EnableNFS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -456,7 +567,7 @@
     <value>NoControl</value>
   </data>
   <data name="InstallVLC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 50</value>
+    <value>584, 141</value>
   </data>
   <data name="InstallVLC.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 40</value>
@@ -516,7 +627,7 @@
     <value>NoControl</value>
   </data>
   <data name="DisWinDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 96</value>
+    <value>3, 142</value>
   </data>
   <data name="DisWinDef.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>

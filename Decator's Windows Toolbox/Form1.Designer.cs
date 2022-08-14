@@ -34,6 +34,13 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.InstallVscode = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.AddPATH = new System.Windows.Forms.Button();
+            this.PATHBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.InstallChoco = new System.Windows.Forms.Button();
+            this.InstallAlpineWSL = new System.Windows.Forms.Button();
             this.EnableWSL = new System.Windows.Forms.Button();
             this.InstallFirefox = new System.Windows.Forms.Button();
             this.InstallGithubDesktop = new System.Windows.Forms.Button();
@@ -64,6 +71,7 @@
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -108,6 +116,14 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.AddPATH);
+            this.panel1.Controls.Add(this.PATHBox);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.InstallChoco);
+            this.panel1.Controls.Add(this.InstallAlpineWSL);
             this.panel1.Controls.Add(this.EnableWSL);
             this.panel1.Controls.Add(this.InstallFirefox);
             this.panel1.Controls.Add(this.InstallGithubDesktop);
@@ -138,6 +154,59 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // AddPATH
+            // 
+            resources.ApplyResources(this.AddPATH, "AddPATH");
+            this.AddPATH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddPATH.Name = "AddPATH";
+            this.AddPATH.UseVisualStyleBackColor = true;
+            this.AddPATH.Click += new System.EventHandler(this.AddPATH_Click);
+            // 
+            // PATHBox
+            // 
+            resources.ApplyResources(this.PATHBox, "PATHBox");
+            this.PATHBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.PATHBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PATHBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PATHBox.ForeColor = System.Drawing.Color.White;
+            this.PATHBox.Name = "PATHBox";
+            this.PATHBox.TextChanged += new System.EventHandler(this.PATHBox_TextChanged);
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Name = "label3";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Name = "label2";
+            // 
+            // InstallChoco
+            // 
+            resources.ApplyResources(this.InstallChoco, "InstallChoco");
+            this.InstallChoco.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallChoco.Name = "InstallChoco";
+            this.InstallChoco.UseVisualStyleBackColor = true;
+            this.InstallChoco.Click += new System.EventHandler(this.InstallChoco_Click);
+            // 
+            // InstallAlpineWSL
+            // 
+            resources.ApplyResources(this.InstallAlpineWSL, "InstallAlpineWSL");
+            this.InstallAlpineWSL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstallAlpineWSL.Name = "InstallAlpineWSL";
+            this.InstallAlpineWSL.UseVisualStyleBackColor = true;
+            this.InstallAlpineWSL.Click += new System.EventHandler(this.InstallAlpineWSL_Click);
             // 
             // EnableWSL
             // 
@@ -380,6 +449,15 @@
             this.progressBar1.Value = 1;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Name = "textBox2";
+            // 
             // WindowsToolbox
             // 
             this.AcceptButton = this.ConfirmButton;
@@ -444,5 +522,13 @@
         private System.Windows.Forms.Button InstallChrome;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button EnableWSL;
+        private System.Windows.Forms.Button InstallAlpineWSL;
+        private System.Windows.Forms.Button InstallChoco;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button AddPATH;
+        private System.Windows.Forms.TextBox PATHBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
