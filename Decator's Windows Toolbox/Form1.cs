@@ -117,8 +117,7 @@ namespace Decator_s_Windows_Toolbox
       InstallLog("vscode");
 
     }
-
-    private void InstallGit_Click(object sender, EventArgs e)
+        private void InstallGit_Click(object sender, EventArgs e)
     {
       install_git_winget = true;
       InstallLog("git");
@@ -159,6 +158,8 @@ namespace Decator_s_Windows_Toolbox
         {
             Log("Windows Tool Box Loaded.");
             Log(String.Format("Logging to '{0}'.", Program.logfile));
+            progressBar1.Style = ProgressBarStyle.Marquee;
+            progressBar1.Visible = false;
         }
 
         private void EnableNFS_Click(object sender, EventArgs e)
@@ -268,6 +269,11 @@ namespace Decator_s_Windows_Toolbox
 
         }
 
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void DisWinDef_Click(object sender, EventArgs e)
         {
             Log("Will Disable Windows Defender");
@@ -312,7 +318,7 @@ namespace Decator_s_Windows_Toolbox
 
         private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
     {
-      if (install_vscode_winget)
+            if (install_vscode_winget)
         WingetPrograms.Add("Microsoft.VisualStudioCode");
       if (install_git_winget)
         WingetPrograms.Add("git.git");
@@ -363,7 +369,8 @@ namespace Decator_s_Windows_Toolbox
 
     private void InstallationWorker_DoWork(object sender, DoWorkEventArgs e)
     {
-      foreach (string Action in ConfigActions)
+            progressBar1.Visible = true;
+            foreach (string Action in ConfigActions)
             {
                 if (Action == "DisWinDef")
                 Functions.ApplyRegistryEdits(Action);
@@ -375,6 +382,7 @@ namespace Decator_s_Windows_Toolbox
 
 
             }
+            int i=0;
       foreach (string Program in WingetPrograms)
       {
         if (Functions.InstallProgramWinget(Program)!=0)
@@ -389,9 +397,12 @@ namespace Decator_s_Windows_Toolbox
         if(InstallationWorker.CancellationPending)
                 {
                     e.Cancel = true;
+                    progressBar1.Visible = false;
                     break;
                 }
       }
+            progressBar1.Visible = false;
+        }
+ 
     }
-  }
 }

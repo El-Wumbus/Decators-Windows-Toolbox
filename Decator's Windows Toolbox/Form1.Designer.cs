@@ -62,6 +62,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.InstallationWorker = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -355,6 +356,20 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             // 
+            // progressBar1
+            // 
+            resources.ApplyResources(this.progressBar1, "progressBar1");
+            this.progressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.progressBar1.ForeColor = System.Drawing.Color.Blue;
+            this.progressBar1.MarqueeAnimationSpeed = 48;
+            this.progressBar1.Maximum = 400;
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Step = 1;
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressBar1.UseWaitCursor = true;
+            this.progressBar1.Value = 1;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
             // WindowsToolbox
             // 
             this.AcceptButton = this.ConfirmButton;
@@ -363,6 +378,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.CancelButton = this.ExitButton;
             this.ControlBox = false;
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ExitButton);
@@ -416,5 +432,6 @@
         private System.Windows.Forms.Button InstallSteam;
         private System.Windows.Forms.Button InstallVMeet;
         private System.Windows.Forms.Button InstallChrome;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
